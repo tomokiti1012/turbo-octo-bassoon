@@ -1,0 +1,53 @@
+html{
+   text-align: center;
+}
+
+.bg_pattern {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #ffe9a7;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  .Paper {
+    background-image:  linear-gradient(#ffc107 4px, transparent 4px), linear-gradient(90deg, #ffc107 4px, transparent 4px), linear-gradient(#ffc107 2px, transparent 2px), linear-gradient(90deg, #ffc107 2px, #ffe9a7 2px);
+    background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position: -4px -4px, -4px -4px, -2px -2px, -2px -2px;
+  }
+
+.container{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.m-2{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#js-btn{
+    text-align: center;
+    color: #000;
+    background-color: #fff100;
+    border-bottom: 5px solid #ccc100;
+    font-size: 25px;
+}
+
+#js-btn:hover{
+    margin-top: 3px;
+    color: #000;
+    background: #fff20a;
+    border-bottom: 2px solid #ccc100;
+}
+
+.twitter-share-button{
+    margin-top: 50px;
+   
+}
